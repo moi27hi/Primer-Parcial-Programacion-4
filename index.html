@@ -4,41 +4,49 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Parcial - Ingeniería en Sistemas</title>
-  <!-- Enlaza tu archivo CSS para estilos -->
-  <link rel="stylesheet" href="estilos.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 30px;
+      background-color: #f5f5f5;
+    }
+  </style>
 </head>
 <body>
 
   
-  <header>
-   
-    <img src="imagenes/logo_ugb.png" alt="Logo UGB" />
-
-    <div class="titulo-parcial">
-      Parcial Primer Cómputo Ingeniería en Sistemas y<br/>
-      Redes Informáticas
-    </div>
-  </header>
-
-  
-  <main>
-
+  <app-header
+  logo="imagenes/logo_ugb.png"
+    titulo="Parcial Primer Cómputo Ingeniería en Sistemas y<br/>Redes Informáticas"
     
-    <h1>Tu Pagina Web Aqui</h1>
+  ></app-header>
 
-
+  <main>
+   <H1>Bienvenido al Parcial</H1>
   </main>
 
   
-  <footer>
-    <p class="titulo-footer">Integrantes del Equipo</p>
-    <div class="integrantes">
-      <span>Moisés Abelino Ramírez Rubio SMSS217724</span>
-      <span>Erick Josué Rivera Velásquez SMSS147524</span>
-    </div>
-  </footer>
+  <app-footer
+    integrantes='["Moisés Abelino Ramírez Rubio SMSS217724", "Erick Josué Rivera Velásquez SMSS147524"]'
+    enlaces='[{"href": "index.html", "texto": "Inicio"}]'
+  ></app-footer>
 
-  <script src="escripts.js"></script>
+  <!-- Carga los Web Components -->
+  <script src="index.js"></script>
+ 
 
 </body>
 </html>
