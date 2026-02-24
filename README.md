@@ -19,11 +19,12 @@ o ¿Qué valor agregado tiene el uso de webcomponents a su proyecto?
 
 o ¿De qué forma manipularon los datos sin recargar la página? 
 
-    R//
+    R//Lo hicimos por medio de Shadow, permitiendo que los elementos se actualizen de forma instantanea
 
 o ¿De qué forma validaron las entradas de datos? Expliquen brevemente 
 
-    R//
+    R//Poniendo una serie de condiciones para que al ingresar los datos del producto estos fueran los 
+    esperados y no algo "al azar" por asi decirlo.
 
 o ¿Cómo manejaría la escalabilidad futura en su página? 
 
