@@ -1,3 +1,9 @@
+Estudiantes:
+
+Moisés Abelino Ramírez Rubio SMSS217724
+
+Erick Josué Rivera Velásquez SMSS147524
+
 1.	Plantee una situación problemática que se pueda resolver por medio de una página web. Esta situación problemática debe contener un enunciado que documente la situación problemática; además de mencionar a qué sector o sectores podría ir enfocado la solución que planteen por medio de su programa. 
 
  
