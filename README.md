@@ -11,15 +11,22 @@ Erick Josué Rivera Velásquez SMSS147524
     donde donde se ingrese el nombre del producto, la cantidad que lleva y se muestre el precio de dicho 
     producto y que aparte se muestre el total a pagar de todos los productos. 
 
- 
+
 o ¿Qué valor agregado tiene el uso de webcomponents a su proyecto? 
+
     R//Permite que el archivo index no se vea tan sobrecargado de codigo, ademas nos permite maniúlar 
     cada elemento de forma independiente al resto del proyecto
+
 o ¿De qué forma manipularon los datos sin recargar la página? 
+
     R//
+
 o ¿De qué forma validaron las entradas de datos? Expliquen brevemente 
+
     R//
+
 o ¿Cómo manejaría la escalabilidad futura en su página? 
+
     R//Ya que nuestra pagina maneja registros de productos, habria que hacer uso de software de base de 
     datos, por ejemplo como, Supabase es un servicio ligero donde podriamos almacenar los datos 
     recopilados por el sitio e irlos actualizando.
