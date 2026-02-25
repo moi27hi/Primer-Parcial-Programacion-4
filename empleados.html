@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parcial - Ingeniería en Sistemas</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 30px;
+      background-color: #f5f5f5;
+    }
+  </style>
+  <link rel="stylesheet" href="estilos_empleados.css">
+</head>
+<body>
+
+  
+  <app-header
+  logo="imagenes/logo_ugb.png"
+    titulo="Parcial Primer Cómputo Ingeniería en Sistemas y<br/>Redes Informáticas"
+    
+  ></app-header>
+
+  <main>
+
+    <div class="contenedor">
+        <h2>Registro de Inventario</h2>
+        
+        <div class="formulario">
+            <label>ID del Producto (8 caracteres, inicia con letra):</label>
+            <input type="text" id="idProducto" placeholder="Ej: A1234567" maxlength="8">
+            <label>Nombre del producto (8 caracteres, inicia con letra):</label>
+            <input type="text" id="nombreProducto" placeholder="Ej: Manzana" maxlength="20">
+            
+            <label>Cantidad:</label>
+            <input type="number" id="cantidad" placeholder="0" min="1">
+
+            <label>Precio Unitario:</label>
+            <input type="number" id="precioUnitario" placeholder="0.00" min="0" step="0.01">
+            
+            <label>Categoría:</label>
+            <select id="categoria">
+                <option value="">-- Seleccione una categoría --</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Verduras">Verduras</option>
+                <option value="Abarrotes">Abarrotes</option>
+            </select>
+            
+            <button id="btnRegistrar" disabled>Registrar Producto</button>
+        </div>
+
+        <table id="tablaInventario">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Categoría</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+   
+
+
+  </main>
+
+  
+  <app-footer
+    integrantes='["Moisés Abelino Ramírez Rubio SMSS217724", "Erick Josué Rivera Velásquez SMSS147524"]'
+    enlaces='[{"href": "index.html", "texto": "Inicio"}]'
+  ></app-footer>
+
+  
+  <script src="index.js"></script>
+  <script src="empleados.js"></script>
+ 
+
+</body>
+</html>

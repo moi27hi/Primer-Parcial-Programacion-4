@@ -25,6 +25,7 @@
     }
   </style>
 </head>
+<link rel="stylesheet" href="estilos.css" />
 <body>
 
   
@@ -35,17 +36,30 @@
   ></app-header>
 
   <main>
-   <H1>Bienvenido al Parcial</H1>
+   <H1>Supermercados 2x1</H1>
+      <div class="contenedor-galeria">
+        <img id="visor-principal" src="imagenes/frutas.webp" alt="Principal">
+
+        <div class="fila-miniaturas">
+            <img class="miniatura" src="imagenes/manzana.jpg" alt="fruta 1">
+            <img class="miniatura" src="imagenes/sandia.jpg" alt="fruta 2">
+            <img class="miniatura" src="imagenes/zanahoria.jpg" alt="fruta 3">
+        </div>
+    </div>
+
   </main>
 
   
   <app-footer
     integrantes='["Moisés Abelino Ramírez Rubio SMSS217724", "Erick Josué Rivera Velásquez SMSS147524"]'
-    enlaces='[{"href": "index.html", "texto": "Inicio"}]'
+    enlaces='[{"href": "index.html", "texto": "Inicio"}, {"href": "empleados.html", "texto": "Panel de Empleados"}, {"href": "clientes.html", "texto": "Panel de Clientes"}]'
   ></app-footer>
 
   <!-- Carga los Web Components -->
+
   <script src="index.js"></script>
+
+
  
 
 </body>
